@@ -4,12 +4,15 @@
   "description": "The variables start and end are given. Return an array with the contents of the individual numbers. Replace all numbers divisible by three with \"Fizz\" and all numbers divisible by five with \"Buzz\". If a number is divisible by five and three replace it by \"FizzBuzz\".",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass ./sass/styles.scss:styles.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.62.1"
+    "sass": "^1.62.1",
+    "husky": "^8.0.0"
   }
 }
