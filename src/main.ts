@@ -1,4 +1,4 @@
-const fizzbuzz = (start: number, end: number) => {
+export const fizzbuzz = (start: number, end: number) => {
   const fizzbuzzArray = [];
   for (let index = start; index <= end; index++) {
     if (index % 3 === 0 && index % 5 === 0) {
@@ -11,7 +11,5 @@ const fizzbuzz = (start: number, end: number) => {
       fizzbuzzArray.push(index);
     }
   }
-  console.log(fizzbuzzArray);
+  return fizzbuzzArray;
 };
-
-fizzbuzz(2, 15);
