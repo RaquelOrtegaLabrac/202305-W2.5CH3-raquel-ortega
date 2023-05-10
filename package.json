@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass ./sass/styles.scss:styles.css -w",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "prepare": "husky install",
-    "build": "tsc --v"
+    "build": "tsc --watch"
   },
   "keywords": [],
   "author": "",
