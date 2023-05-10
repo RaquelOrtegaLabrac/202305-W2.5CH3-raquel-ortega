@@ -12,13 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
     "husky": "^8.0.0",
     "sass": "^1.62.1"
   },
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.21.5"
   },
-    "babel": {
+  "babel": {
     "env": {
       "test": {
         "plugins": [
@@ -28,5 +29,3 @@
     }
   }
 }
-
-
