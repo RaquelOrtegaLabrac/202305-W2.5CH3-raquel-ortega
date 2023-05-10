@@ -12,7 +12,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.62.1",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "sass": "^1.62.1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.21.5"
+  },
+    "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "@babel/plugin-transform-modules-commonjs"
+        ]
+      }
+    }
   }
 }
+
+
